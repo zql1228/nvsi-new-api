@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafa;
+      }
+
+      .cls-2 {
+        fill: #d0d1d6;
+      }
+
+      .cls-3 {
+        fill: #7d8391;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #7b818e;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="项目管理" transform="translate(-42 -1210)">
+    <circle id="椭圆_450" data-name="椭圆 450" class="cls-1" cx="45" cy="45" r="45" transform="translate(42 1210)"/>
+    <g id="组_15380" data-name="组 15380" transform="translate(3115.258 -5487.693)">
+      <path id="路径_7588" data-name="路径 7588" class="cls-2" d="M-3006.187,6765.928h-32.466V6730.3h17.434l15.032,15.031Z" transform="translate(-2.138 -2.138)"/>
+      <path id="路径_7589" data-name="路径 7589" class="cls-3" d="M-3017.415,6759.57h-25.973a4.876,4.876,0,0,1-4.87-4.87v-29.137a4.876,4.876,0,0,1,4.87-4.871h10.941a10.545,10.545,0,0,1,6.69,2.771l10.441,10.44a10.544,10.544,0,0,1,2.771,6.69V6754.7A4.876,4.876,0,0,1-3017.415,6759.57Zm-27.6-35.631,0,32.387,29.219,0v-15.735a7.511,7.511,0,0,0-1.82-4.4l-10.442-10.439a7.5,7.5,0,0,0-4.394-1.82Z" transform="translate(0 0)"/>
+      <path id="路径_7590" data-name="路径 7590" class="cls-4" d="M-3008.713,6737.813h-15.032v-15.032" transform="translate(-5.456 -0.465)"/>
+      <line id="直线_124" data-name="直线 124" class="cls-4" x1="15.7" transform="translate(-3038.252 6744.014)"/>
+      <line id="直线_125" data-name="直线 125" class="cls-4" x1="15.7" transform="translate(-3038.252 6749.115)"/>
+    </g>
+  </g>
+</svg>

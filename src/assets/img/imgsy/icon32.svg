@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbb61"/>
+      <stop offset="1" stop-color="#ff9204"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffdaaa"/>
+      <stop offset="1" stop-color="#ffac40"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff5e8"/>
+      <stop offset="1" stop-color="#ffc984"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff3e4"/>
+      <stop offset="1" stop-color="#ffe6c5"/>
+    </linearGradient>
+  </defs>
+  <g id="icon32" transform="translate(-107 -975)">
+    <g id="组_39302" data-name="组 39302" transform="translate(107 975)">
+      <circle id="椭圆_8378" data-name="椭圆 8378" cx="60" cy="60" r="60" fill="#fff3e1"/>
+      <g id="组_39301" data-name="组 39301" transform="translate(19.688 15)">
+        <ellipse id="椭圆_8452" data-name="椭圆 8452" cx="11" cy="11.5" rx="11" ry="11.5" transform="translate(0.313)" fill="url(#linear-gradient)"/>
+        <ellipse id="椭圆_8453" data-name="椭圆 8453" cx="11" cy="11.5" rx="11" ry="11.5" transform="translate(57.313)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="组_39300" data-name="组 39300" transform="translate(50.625 8.438)">
+        <rect id="矩形_35299" data-name="矩形 35299" width="2" height="8" transform="translate(8.375 1.563)" fill="url(#linear-gradient)"/>
+        <rect id="矩形_35300" data-name="矩形 35300" width="18" height="4" rx="2" transform="translate(0.375 -0.438)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="组_39299" data-name="组 39299" transform="translate(13.125 16.875)">
+        <path id="路径_109271" data-name="路径 109271" d="M17.813,18h60a7.5,7.5,0,0,1,7.5,7.5L93.75,56.438a7.5,7.5,0,0,1-7.5,7.5H7.5a7.5,7.5,0,0,1-7.5-7.5L10.313,25.5a7.5,7.5,0,0,1,7.5-7.5Z" transform="translate(0 31.688)" fill="url(#linear-gradient)"/>
+        <path id="联合_241" data-name="联合 241" d="M7.522,11A7.438,7.438,0,0,1,0,3.665l.006-.016Q0,3.575,0,3.5V0H94V3.5q0,.074,0,.147l0,.018A7.437,7.437,0,0,1,86.478,11Zm0-3.667H86.478A7.625,7.625,0,0,0,91.458,5.5H2.55A7.637,7.637,0,0,0,7.522,7.331Z" transform="translate(-0.125 84.125)" fill="url(#linear-gradient-6)"/>
+        <path id="路径_109270" data-name="路径 109270" d="M17.813,18h60a7.5,7.5,0,0,1,7.5,7.5L93.75,56.438a7.5,7.5,0,0,1-7.5,7.5H7.5a7.5,7.5,0,0,1-7.5-7.5L10.313,25.5a7.5,7.5,0,0,1,7.5-7.5Z" transform="translate(0 27.938)" fill="url(#linear-gradient-7)"/>
+        <ellipse id="椭圆_8450" data-name="椭圆 8450" cx="38" cy="38.5" rx="38" ry="38.5" transform="translate(8.875 0.125)" fill="url(#linear-gradient)"/>
+        <g id="椭圆_8451" data-name="椭圆 8451" transform="translate(13.875 6.125)" stroke="#e18121" stroke-width="1" fill="url(#linear-gradient-9)">
+          <ellipse cx="33" cy="32.5" rx="33" ry="32.5" stroke="none"/>
+          <ellipse cx="33" cy="32.5" rx="32.5" ry="32" fill="none"/>
+        </g>
+        <g id="组_39297" data-name="组 39297" transform="translate(19.729 11.99)" style="mix-blend-mode: multiply;isolation: isolate">
+          <path id="路径_50" data-name="路径 50" d="M580.84,783.19l-.624-.631-1.239,1.418.625.629Z" transform="translate(-571.231 -739.994)" fill="#f8a419"/>
+          <path id="路径_51" data-name="路径 51" d="M313.031,485.436l-.624-.629-1.231,1.342.624.628Z" transform="translate(-269.062 -477.08)" fill="#f8a419"/>
+          <path id="路径_52" data-name="路径 52" d="M587.376,499.647l.631-.709-1.457-1.344-.635.707Z" transform="translate(-579.287 -488.808)" fill="#f8a419"/>
+          <path id="路径_53" data-name="路径 53" d="M303.311,787.28l.633-.71-1.2-1.3-.638.705Z" transform="translate(-258.812 -742.358)" fill="#f8a419"/>
+          <path id="路径_54" data-name="路径 54" d="M623.7,644.351v-.88l-4.438.1v.878Z" transform="translate(-619.257 -617.096)" fill="#f8a419"/>
+          <path id="路径_55" data-name="路径 55" d="M242.6,636.094v-.878l-4.6.1v.878Z" transform="translate(-189.246 -609.836)" fill="#f8a419"/>
+          <path id="路径_56" data-name="路径 56" d="M447.809,429.579l.955-.02-.009-4.977-.952.023Z" transform="translate(-422.325 -424.583)" fill="#f8a419"/>
+          <path id="路径_57" data-name="路径 57" d="M446.4,829.111l.952-.023-.006-4.975-.952.023Z" transform="translate(-420.736 -776.216)" fill="#f8a419"/>
+        </g>
+        <g id="组_39298" data-name="组 39298" transform="translate(30.178 21.184)">
+          <path id="路径_45" data-name="路径 45" d="M434.148,632.8a2.108,2.108,0,1,0-1.287,2.684,2.108,2.108,0,0,0,1.287-2.684Z" transform="translate(-415.588 -614.815)" fill="#edbd83"/>
+          <path id="路径_46" data-name="路径 46" d="M433.75,628.961a2.108,2.108,0,1,0-1.911,2.283A2.108,2.108,0,0,0,433.75,628.961Z" transform="translate(-415.012 -610.999)" fill="#7f462f"/>
+          <path id="路径_58" data-name="路径 58" d="M439.3,635.533a1.147,1.147,0,1,0-1.04,1.243,1.147,1.147,0,0,0,1.04-1.243Z" transform="translate(-421.515 -617.486)" fill="#edbd83"/>
+          <path id="路径_59" data-name="路径 59" d="M456.439,533.092l-15.973-12.908-.655-4.86,3.659,1.589L457.236,532.1Z" transform="translate(-439.811 -513.2)" fill="#edbd83" opacity="0.22"/>
+          <path id="路径_60" data-name="路径 60" d="M450.711,516.727l-15.111-13.9-.342-4.893,3.55,1.82,12.764,16.033Z" transform="translate(-433.561 -497.933)" fill="#ff784a"/>
+          <path id="路径_61" data-name="路径 61" d="M286.558,640.472l17.792,1.111,2.578,2.59-3.492.55-17.065-3.343Z" transform="translate(-269.748 -622.782)" fill="#edbd83" opacity="0.22"/>
+          <path id="路径_62" data-name="路径 62" d="M283.163,631.556l17.869-.46,2.91,2.343-3.4.853L283.1,632.473Z" transform="translate(-266.341 -614.528)" fill="#ff784a"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

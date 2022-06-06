@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafa;
+      }
+
+      .cls-2 {
+        fill: #d0d1d6;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke: #7d8391;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="下载_" data-name="下载 " transform="translate(-415 -1210)">
+    <g id="组_34800" data-name="组 34800">
+      <circle id="椭圆_8333" data-name="椭圆 8333" class="cls-1" cx="45" cy="45" r="45" transform="translate(415 1210)"/>
+      <g id="文件夹-下载_folder-download" transform="translate(435 1230)">
+        <path id="路径_103153" data-name="路径 103153" class="cls-2" d="M5,7.86A1.86,1.86,0,0,1,6.86,6H18.023l4.651,5.581H38.488a1.86,1.86,0,0,1,1.86,1.86V37.628a1.86,1.86,0,0,1-1.86,1.86H6.86A1.86,1.86,0,0,1,5,37.628Z" transform="translate(4.651 4.651)"/>
+        <path id="路径_103150" data-name="路径 103150" class="cls-3" d="M5,7.86A1.86,1.86,0,0,1,6.86,6H18.023l4.651,5.581H38.488a1.86,1.86,0,0,1,1.86,1.86V37.628a1.86,1.86,0,0,1-1.86,1.86H6.86A1.86,1.86,0,0,1,5,37.628Z" transform="translate(0 0)"/>
+        <path id="路径_103151" data-name="路径 103151" class="cls-4" d="M29.163,28l-5.588,5.581L18,28.012" transform="translate(-0.907 -1.535)"/>
+        <path id="路径_103152" data-name="路径 103152" class="cls-4" d="M24,20V33.023" transform="translate(-1.326 -0.977)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1.073" x2="0.5" y2="-0.355" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#82d1fc"/>
+      <stop offset="1" stop-color="#c7f0ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1.073" x2="0.5" y2="-0.355" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#59bff8"/>
+      <stop offset="1" stop-color="#71daff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1.514" y1="0.5" x2="-0.162" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe5e5e"/>
+      <stop offset="1" stop-color="#d84e2b"/>
+    </linearGradient>
+  </defs>
+  <g id="icon41" transform="translate(-85 -944)">
+    <circle id="椭圆_8385" data-name="椭圆 8385" cx="60" cy="60" r="60" transform="translate(85 944)" fill="#dff4fe"/>
+    <g id="组_38843" data-name="组 38843" transform="translate(-2.287 -2.999)">
+      <rect id="矩形_35293" data-name="矩形 35293" width="90" height="62" rx="8" transform="translate(102.287 992.999)" fill="url(#linear-gradient)"/>
+      <rect id="矩形_27282" data-name="矩形 27282" width="66" height="100" rx="8" transform="translate(114.287 954.999)" fill="url(#linear-gradient-2)"/>
+      <g id="组_38840" data-name="组 38840" transform="matrix(0.454, 0.891, -0.891, 0.454, 142.5, 950.119)">
+        <path id="路径_112989" data-name="路径 112989" d="M315.762,53.513a8.974,8.974,0,0,1-8.962-8.962V21.362a8.959,8.959,0,0,1,15.546-6.077,1.154,1.154,0,0,1-1.7,1.566A6.652,6.652,0,0,0,309.1,21.362V44.551a6.675,6.675,0,0,0,6.666,6.666,6.56,6.56,0,0,0,3.557-1.036,1.152,1.152,0,0,1,1.237,1.943A8.98,8.98,0,0,1,315.762,53.513Z" transform="translate(-306.8 -12.4)" fill="url(#linear-gradient-3)"/>
+        <path id="路径_112990" data-name="路径 112990" d="M414.337,228.305l-1.237-1.943a6.658,6.658,0,0,0,3.109-5.629V212.1h2.3v8.633A8.953,8.953,0,0,1,414.337,228.305Z" transform="translate(-400.58 -188.581)" fill="url(#linear-gradient-3)"/>
+        <path id="路径_112991" data-name="路径 112991" d="M369.2,95.842h-2.3V78.329a5.429,5.429,0,1,1,10.858,0v14.3h-2.3v-14.3a3.121,3.121,0,1,0-6.242,0V95.842Z" transform="translate(-359.821 -65.776)" fill="url(#linear-gradient-3)"/>
+      </g>
+      <rect id="矩形_28513" data-name="矩形 28513" width="45" height="3" rx="1.5" transform="translate(120.287 993.999)" fill="#e0f5fe"/>
+      <rect id="矩形_28517" data-name="矩形 28517" width="45" height="3" rx="1.5" transform="translate(120.287 1017.999)" fill="#e0f5fe"/>
+      <rect id="矩形_28515" data-name="矩形 28515" width="25" height="3" rx="1.5" transform="translate(120.287 1000.999)" fill="#e0f5fe"/>
+      <rect id="矩形_28518" data-name="矩形 28518" width="25" height="3" rx="1.5" transform="translate(120.287 1024.999)" fill="#e0f5fe"/>
+      <rect id="矩形_28516" data-name="矩形 28516" width="52" height="3" rx="1.5" transform="translate(120.287 1008.999)" fill="#e0f5fe"/>
+      <rect id="矩形_28519" data-name="矩形 28519" width="52" height="3" rx="1.5" transform="translate(120.287 1032.999)" fill="#e0f5fe"/>
+    </g>
+  </g>
+</svg>

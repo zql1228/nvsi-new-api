@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.146" y1="0.854" x2="0.854" y2="0.146" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0acffe"/>
+      <stop offset="1" stop-color="#495aff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <g id="i5_active" transform="translate(-92 -411)">
+    <g id="组_39615" data-name="组 39615" transform="translate(92 411)">
+      <circle id="椭圆_11846" data-name="椭圆 11846" cx="40" cy="40" r="40" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="组_39617" data-name="组 39617" transform="translate(111.615 430.621)">
+      <path id="路径_114169" data-name="路径 114169" d="M3229.93,853.372h18.483V829.1H3229.93c-2.568,0-5.789-2.049-5.789-5.176h0V848.2C3224.141,850.745,3227.257,853.372,3229.93,853.372Z" transform="translate(-3207.158 -812.649)" fill="url(#linear-gradient-2)"/>
+      <path id="路径_114170" data-name="路径 114170" d="M3224.141,823.925l7.288-5.243s-.423,18.137,0,23.414c0,3.215-7.288,2.481-7.288,6.1Z" transform="translate(-3207.158 -812.649)" fill="url(#linear-gradient-2)"/>
+      <rect id="矩形_28954" data-name="矩形 28954" width="3.999" height="40.723" fill="url(#linear-gradient-2)"/>
+      <path id="路径_114171" data-name="路径 114171" d="M3225.64,812.649h-18.482V836.92h18.482c2.569,0,5.789,2.048,5.789,5.176h0V817.825C3231.429,815.275,3228.314,812.649,3225.64,812.649Z" transform="translate(-3207.158 -812.649)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

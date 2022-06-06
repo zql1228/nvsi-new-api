@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "UNIVECONBOL";
+    src: url("UNIVECONBOL.eot"); /* IE9 */
+    src: url("UNIVECONBOL.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    
+    url("UNIVECONBOL.woff") format("woff"), /* chrome、firefox */
+    url("UNIVECONBOL.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    
+    url("UNIVECONBOL.svg#UNIVECONBOL") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+

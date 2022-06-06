@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.497" y1="0.567" x2="0.637" y2="0.842" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#28d8f6"/>
+      <stop offset="1" stop-color="#457ded"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.728" y1="0.877" x2="-0.741" y2="-1.643" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.46" y1="0.199" x2="1.152" y2="5.433" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.331" y1="0.48" x2="0.18" y2="0.132" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="0.258" y1="0.223" x2="2.401" y2="2.975" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="0.411" y1="0.031" x2="0.59" y2="0.975" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="0.5" y1="-0.005" x2="0.5" y2="0.948" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="icon27" transform="translate(-600 -797)">
+    <rect id="矩形_28991" data-name="矩形 28991" width="70" height="70" transform="translate(600 797)" fill="none"/>
+    <g id="组_39450" data-name="组 39450" transform="translate(-2.766 -50)">
+      <path id="路径_114056" data-name="路径 114056" d="M772.907,150.28h0a1.16,1.16,0,0,0-1.16,1.161v2.678a1.16,1.16,0,0,0,1.16,1.161h0a2.949,2.949,0,0,1,2.949,2.949v27.5a2.948,2.948,0,0,1-2.948,2.948h-7.991a7.251,7.251,0,0,0-3.624.971l-4.894,2.826a.645.645,0,0,0,.323,1.2h16.185a7.949,7.949,0,0,0,7.949-7.948v-27.5A7.949,7.949,0,0,0,772.907,150.28Z" transform="translate(-117.817 713.562)" fill="url(#linear-gradient)"/>
+      <path id="路径_114057" data-name="路径 114057" d="M772.906,188.678h-7.99a7.251,7.251,0,0,0-3.624.971l-4.894,2.826a.645.645,0,0,0,.323,1.2h16.185a7.949,7.949,0,0,0,7.949-7.949v-4.365C780.855,186.056,777.405,188.678,772.906,188.678Z" transform="translate(-117.817 713.562)" fill="url(#linear-gradient-2)"/>
+      <rect id="矩形_28851" data-name="矩形 28851" width="10.698" height="5" rx="0.951" transform="translate(632.553 863.842)" fill="url(#linear-gradient-3)"/>
+      <g id="组_39446" data-name="组 39446" transform="translate(-117.817 713.562)">
+        <path id="路径_114058" data-name="路径 114058" d="M754.9,188.71H738.532a2.949,2.949,0,0,1-2.949-2.948v-27.5a2.948,2.948,0,0,1,2.949-2.948h0a1.161,1.161,0,0,0,1.161-1.161v-2.678a1.161,1.161,0,0,0-1.161-1.161h0a7.949,7.949,0,0,0-7.949,7.949v27.5a7.948,7.948,0,0,0,7.949,7.948h8.17a7.248,7.248,0,0,0,3.624-.971l4.894-2.825A.645.645,0,0,0,754.9,188.71Z" fill="url(#linear-gradient-4)"/>
+      </g>
+      <g id="组_39447" data-name="组 39447" transform="translate(-117.817 713.562)">
+        <path id="路径_114059" data-name="路径 114059" d="M738.532,150.312h0a7.949,7.949,0,0,0-7.949,7.949v4.365c0-4.692,3.45-7.314,7.949-7.314,0,0,1.161-.1,1.161-1.161v-2.678A1.161,1.161,0,0,0,738.532,150.312Z" fill="url(#linear-gradient-5)"/>
+      </g>
+      <rect id="矩形_28854" data-name="矩形 28854" width="5.008" height="15.689" rx="2.504" transform="translate(624.71 857)" fill="url(#linear-gradient-6)"/>
+      <rect id="矩形_28855" data-name="矩形 28855" width="5.008" height="15.689" rx="2.504" transform="translate(646.086 857)" fill="url(#linear-gradient-7)"/>
+      <g id="组_39448" data-name="组 39448" transform="translate(624.077 883.116) rotate(49)">
+        <path id="路径_112948" data-name="路径 112948" d="M325.816,174.2h-9.443a2.787,2.787,0,0,1-2.787-2.787h0a2.786,2.786,0,0,1,2.787-2.787h14.141v.874A4.7,4.7,0,0,1,325.816,174.2Z" transform="translate(-313.587 -168.626)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient-5)"/>
+      </g>
+      <g id="组_39449" data-name="组 39449" transform="translate(638.258 878.425) rotate(49)">
+        <path id="路径_112949" data-name="路径 112949" d="M329.922,170.918a4.7,4.7,0,0,1-4.7,4.7h-6.466c3.878,0,5.591-2.431,5.591-5.573l.523-23.789a2.787,2.787,0,0,1,2.787-2.787h0a2.787,2.787,0,0,1,2.787,2.787Z" transform="translate(-318.757 -156.264)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

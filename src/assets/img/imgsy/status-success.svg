@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="148" viewBox="0 0 148 148">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #52c41a;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="审核已通过" transform="translate(-301 -812)">
+    <g id="result_ic_success" transform="translate(301 812)">
+      <path id="Fill-" class="cls-1" d="M156,82.914A74.4,74.4,0,0,0,81.086,8C41.13,8,8,41.13,8,82.914,8,122.87,41.13,156,81.086,156,122.87,156,156,122.87,156,82.914Z" transform="translate(-8 -8)"/>
+      <path id="Fill--2" data-name="Fill-" class="cls-2" d="M50.61,94.938l4.135-5.609,20.363,14.932,47.775-42.741,4.135,4.071L75.106,119.585Z" transform="translate(-14.764 -16.527)"/>
+    </g>
+  </g>
+</svg>

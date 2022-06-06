@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.799" y1="-0.479" x2="0.817" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" y2="0" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="i3" transform="translate(-493 -60.451)">
+    <g id="组_39586" data-name="组 39586" transform="translate(493 60.451)">
+      <g id="组_39579" data-name="组 39579" transform="translate(0)">
+        <path id="路径_114160" data-name="路径 114160" d="M40,0A40,40,0,1,1,0,40,40,40,0,0,1,40,0Z" fill="#e3e3e3"/>
+        <g id="组_39578" data-name="组 39578" transform="translate(20.623 19.623)">
+          <path id="路径_114163" data-name="路径 114163" d="M1843.905,2015.281H1813.4a3.979,3.979,0,0,0-3.98,3.978v2.039h2.653a2.6,2.6,0,1,1,0,5.207h-2.653v2.694h2.653a2.6,2.6,0,1,1,0,5.209h-2.653v2.7h2.653a2.6,2.6,0,1,1,0,5.206h-2.653v2.7h2.653a2.6,2.6,0,1,1,0,5.209h-2.653v1.541a3.979,3.979,0,0,0,3.98,3.978h30.506a3.978,3.978,0,0,0,3.978-3.978v-32.5A3.978,3.978,0,0,0,1843.905,2015.281Z" transform="translate(-1809.419 -2015.281)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+          <g id="组_39576" data-name="组 39576" transform="translate(11.999 9.711)">
+            <path id="路径_114164" data-name="路径 114164" d="M2205.781,2111.763a5.649,5.649,0,0,0,0-11.3,5.649,5.649,0,1,0,0,11.3Z" transform="translate(-2196.358 -2100.465)" fill="url(#linear-gradient-2)"/>
+            <path id="路径_114165" data-name="路径 114165" d="M2215.961,2118.088a3.5,3.5,0,0,0-.5-1.845,7.022,7.022,0,0,0-2.595-2.545,11.836,11.836,0,0,0-6.083-2.1,12.353,12.353,0,0,0-8.46,3.193,4.033,4.033,0,0,0-1.524,2.518,21.526,21.526,0,0,0-.03,2.981h19.186C2215.952,2119.527,2215.92,2118.807,2215.961,2118.088Z" transform="translate(-2196.726 -2099.259)" fill="url(#linear-gradient-2)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.038" y1="0.277" x2="0.967" y2="0.337" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff5129"/>
+      <stop offset="1" stop-color="#f91e11"/>
+    </linearGradient>
+  </defs>
+  <g id="tabbar1-active" transform="translate(13679 -24451.5)">
+    <rect id="矩形_29001" data-name="矩形 29001" width="40" height="40" transform="translate(-13679 24451.5)" fill="none"/>
+    <g id="组_38605" data-name="组 38605" transform="translate(-15663 22979.5)">
+      <g id="组_13467" data-name="组 13467" transform="translate(1986 1474)">
+        <path id="路径_5665" data-name="路径 5665" d="M963.884,784.649l-9.857-7.608a8.264,8.264,0,0,0-10.1,0l-9.857,7.608a7.847,7.847,0,0,0-3.094,6.241v13.941a6.581,6.581,0,0,0,6.646,6.5h22.709a6.581,6.581,0,0,0,6.645-6.5V790.89A7.848,7.848,0,0,0,963.884,784.649Z" transform="translate(-930.978 -775.318)" fill="url(#linear-gradient)"/>
+        <path id="路径_5666" data-name="路径 5666" d="M950.191,803.324" transform="translate(-934.471 -780.41)" fill="#c00"/>
+      </g>
+      <path id="路径_7242" data-name="路径 7242" d="M20.305,13.388h0a4.592,4.592,0,0,0-6.333-.19,4.577,4.577,0,0,0-6.286.143,4.513,4.513,0,0,0-.048,6.381l.048.048,5.286,5.238a1.437,1.437,0,0,0,2.048,0l5.286-5.238a4.512,4.512,0,0,0,0-6.381Z" transform="translate(1990.399 1476.278)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

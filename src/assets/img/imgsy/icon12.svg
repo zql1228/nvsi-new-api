@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="矩形_2940" data-name="矩形 2940" width="40" height="40" transform="translate(13 669)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.349" y1="-0.315" x2="1.29" y2="0.581" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fec582"/>
+      <stop offset="1" stop-color="#f47936"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.343" cy="0.5" r="0.484" gradientTransform="matrix(0.894, 0.351, -0.34, 0.949, 0.206, -0.095)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbd6e"/>
+      <stop offset="0.309" stop-color="#ffc281"/>
+      <stop offset="0.353" stop-color="#ffc079"/>
+      <stop offset="1" stop-color="#f99935"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-3" x1="0.977" y1="0.716" x2="0.022" y2="0.625" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fc7112"/>
+      <stop offset="1" stop-color="#fda452"/>
+    </linearGradient>
+  </defs>
+  <g id="蒙版组_37789" data-name="蒙版组 37789" transform="translate(-13 -669)" clip-path="url(#clip-path)">
+    <g id="组_14918" data-name="组 14918" transform="translate(-52.717 -86.287)">
+      <g id="组_14516" data-name="组 14516" transform="matrix(0.966, 0.259, -0.259, 0.966, 29.332, 647.332)">
+        <path id="路径_5725" data-name="路径 5725" d="M100.938,101.669a6.8,6.8,0,0,0-5.178-5.463,1.235,1.235,0,1,0-.555,2.407,4.345,4.345,0,0,1,3.255,5.208,1.235,1.235,0,0,0,2.407.556,6.763,6.763,0,0,0,.091-2.609Z" transform="translate(0 -0.905)" fill="url(#linear-gradient)"/>
+        <path id="路径_5726" data-name="路径 5726" d="M104.716,100.29a10.376,10.376,0,0,0-7.928-8.48,1.235,1.235,0,1,0-.556,2.407,7.885,7.885,0,0,1,5.932,9.5,1.236,1.236,0,0,0,.927,1.482,1.244,1.244,0,0,0,.28.032,1.237,1.237,0,0,0,1.174-.858l.031-.1A10.312,10.312,0,0,0,104.716,100.29Z" transform="translate(-0.212)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="组_14517" data-name="组 14517" transform="matrix(0.946, 0.326, -0.326, 0.946, 286.923, 32.591)">
+        <circle id="椭圆_429" data-name="椭圆 429" cx="3" cy="3" r="3" transform="translate(47 753)" fill="#f17221"/>
+        <path id="矩形_2245" data-name="矩形 2245" d="M11,0h0A11,11,0,0,1,22,11V21a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V11A11,11,0,0,1,11,0Z" transform="translate(39 756)" fill="url(#radial-gradient)"/>
+        <circle id="椭圆_430" data-name="椭圆 430" cx="4" cy="4" r="4" transform="translate(46 776)" fill="#ffc87b"/>
+        <rect id="矩形_2246" data-name="矩形 2246" width="28" height="5" rx="2.5" transform="translate(36 775)" fill="url(#linear-gradient-3)"/>
+      </g>
+    </g>
+  </g>
+</svg>

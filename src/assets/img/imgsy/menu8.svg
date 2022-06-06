@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafa;
+      }
+
+      .cls-2 {
+        fill: #d0d1d6;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke: #7d8391;
+        stroke-linecap: round;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="权限管理" transform="translate(-600 -1210)">
+    <g id="下载_" data-name="下载 " transform="translate(185)">
+      <g id="组_34800" data-name="组 34800">
+        <circle id="椭圆_8333" data-name="椭圆 8333" class="cls-1" cx="45" cy="45" r="45" transform="translate(415 1210)"/>
+      </g>
+    </g>
+    <g id="组_34833" data-name="组 34833" transform="translate(91 2)">
+      <rect id="矩形_26649" data-name="矩形 26649" class="cls-2" width="38" height="29" rx="2" transform="translate(538 1242)"/>
+      <g id="权限_permissions" transform="translate(529 1226)">
+        <path id="路径_103169" data-name="路径 103169" class="cls-3" d="M20,10H6a2,2,0,0,0-2,2V38a2,2,0,0,0,2,2H42a2,2,0,0,0,2-2V35.5"/>
+        <path id="路径_103170" data-name="路径 103170" class="cls-4" d="M10,23h8" transform="translate(1)"/>
+        <path id="路径_103171" data-name="路径 103171" class="cls-4" d="M10,31H34" transform="translate(1)"/>
+        <circle id="椭圆_11430" data-name="椭圆 11430" class="cls-3" cx="6" cy="6" r="6" transform="translate(28 10)"/>
+        <path id="路径_103172" data-name="路径 103172" class="cls-3" d="M44,28.419A11.707,11.707,0,0,0,34,22a10.49,10.49,0,0,0-8.05,3"/>
+      </g>
+    </g>
+  </g>
+</svg>

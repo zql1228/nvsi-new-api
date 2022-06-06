@@ -1,0 +1,1335 @@
+// 重置
+* {
+  touch-action: pan-y;
+}
+html {
+  height: 100%;
+  font-size: calc(100vw / 37.5);
+  color: #333;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+#app {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+div,
+p,
+dl,
+dt,
+dd,
+ul,
+li,
+a,
+span,
+em,
+b,
+input {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+// 公共
+.flex {
+  &-h {
+    display: flex;
+  }
+
+  &-v {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-1 {
+    flex: 1;
+    overflow: hidden;
+  }
+}
+
+.t {
+  &-l {
+    justify-content: flex-start;
+  }
+
+  &-c {
+    justify-content: center;
+  }
+
+  &-r {
+    justify-content: flex-end;
+  }
+
+  &-lr {
+    justify-content: space-between;
+  }
+}
+
+.v {
+  &-t {
+    align-items: flex-start;
+  }
+
+  &-m {
+    align-items: center;
+  }
+
+  &-b {
+    align-items: flex-end;
+  }
+}
+
+.padding {
+  padding: 1.5rem;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  flex: 1;
+  overflow: auto;
+}
+
+// 变量
+$color-primary: #108ee9;
+$borderColor-info: #f3f3f3;
+$color-danger: #ff0000;
+$color-warning: #ff8737;
+$color-info: #707070;
+
+// 混合器
+@mixin single-row {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.select {
+  &-core {
+    padding: 0 2rem 0 0;
+    font-weight: 900;
+    font-size: 1.8rem;
+    background: url(assets/img/arrow-down-fill.png) no-repeat right center /
+      2rem 2rem;
+  }
+}
+
+.personal-info {
+  margin: 0 0 2rem;
+
+  &-container {
+    padding: 0.8rem 1.6rem;
+    margin: 2.3rem 0 0;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: 0 0.15rem 0.6rem rgba(141, 141, 141, 0.17);
+
+    .avatar {
+      width: 4.4rem;
+      height: 4.4rem;
+      margin-right: 1.2rem;
+      object-fit: cover;
+    }
+  }
+}
+
+.text {
+  &[size="mini"] {
+    font-size: 1rem;
+  }
+
+  &[size="small"] {
+    font-size: 1.2rem;
+  }
+
+  &[size="default"] {
+    font-size: 1.4rem;
+  }
+
+  &[size="large"] {
+    font-size: 1.6rem;
+  }
+
+  &.primary {
+    color: $color-primary;
+  }
+
+  &.info {
+    color: #999;
+  }
+
+  &.gray {
+    color: #666;
+  }
+}
+
+.m {
+  &t {
+    &-default {
+      margin-top: 1.6rem;
+    }
+  }
+
+  &b {
+    &-50 {
+      margin-bottom: 2.5rem;
+    }
+
+    &-huge {
+      margin-bottom: 2.9rem;
+    }
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 2.4rem;
+
+  &-item {
+    display: flex;
+    align-items: center;
+    width: 16.25rem;
+    height: 7.2rem;
+
+    img {
+      width: 2.8rem;
+      margin: 0 1.5rem 0 2.4rem;
+    }
+
+    span {
+      font-weight: 900;
+      font-size: 1.8rem;
+    }
+
+    &:first-child {
+      background: url(assets/img/bg2.png) no-repeat left top / 100% 100%;
+    }
+
+    &:last-child {
+      background: url(assets/img/bg3.png) no-repeat left top / 100% 100%;
+    }
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+
+  &-core {
+    flex: 1;
+    font-weight: 900;
+    font-size: 1.8rem;
+  }
+}
+
+.more {
+  display: flex;
+  align-items: center;
+
+  span {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #999;
+  }
+
+  img {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+}
+
+.list {
+  &-item {
+    display: flex;
+    margin-top: 2rem;
+
+    &-cover {
+      position: relative;
+      width: 14rem;
+      margin-right: 1rem;
+      border-radius: 0.5rem;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      &-title {
+        position: absolute;
+        bottom: 0.25rem;
+        left: 0;
+        width: 100%;
+        padding: 0 0.75rem;
+        font-weight: 500;
+        font-size: 1rem;
+        color: #ffffff;
+        @include single-row;
+      }
+    }
+
+    &-badge {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: inline-block;
+      height: 1.5rem;
+      padding: 0 0.35rem;
+      line-height: 1.5rem;
+      text-align: center;
+      font-size: 1.1rem;
+      color: #ffffff;
+      border-radius: 0.5rem 0 0.5rem 0;
+      background: linear-gradient(311deg, #ff0000 0%, #ff4727 100%);
+    }
+
+    &-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    &-title {
+      font-size: 1.4rem;
+      @include single-row;
+    }
+
+    &-content {
+      flex: 1;
+      display: flex;
+      margin: 0.8rem 0;
+
+      img {
+        width: 1.8rem;
+        height: 1.8rem;
+        margin-right: 0.6rem;
+      }
+
+      span {
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: #666666;
+      }
+    }
+  }
+}
+
+.text-list {
+  display: flex;
+
+  li:not(:last-child) {
+    position: relative;
+    margin-right: 2rem;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -1rem;
+      display: inline-block;
+      width: 1px;
+      height: 1rem;
+      background: #999999;
+      transform: scaleX(0.5) translateY(-50%);
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  background: #f5f5f5;
+
+  img {
+    width: 17.05rem;
+  }
+}
+
+.large-title {
+  margin: 0.5rem 0 1rem;
+  font-size: 2.9rem;
+  color: #262626;
+}
+
+.button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4.8rem;
+  font-size: 1.8rem;
+  background: #e6e6e6;
+  border-radius: 0.5rem;
+  &.primary {
+    color: #ffffff;
+    background: #108ee9;
+  }
+  &.info {
+    background: #707070;
+    color: #fff;
+  }
+  &.disabled {
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.65);
+    }
+  }
+}
+
+.form-item {
+  position: relative;
+  margin: 1.6rem 0;
+
+  &[subline]::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: #eeeeee;
+    transform: scaleY(0.5);
+  }
+
+  &-label {
+    font-size: 1.6rem;
+    color: #262626;
+  }
+
+  &-core {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 0;
+    input {
+      flex: 1;
+      font-size: 1.6rem;
+      outline: none;
+      border: none;
+    }
+    .form-select {
+      flex: 1;
+      font-size: 1.6rem;
+      background: url(assets/img/arrow-down-fill.png) no-repeat right center /
+        2rem;
+    }
+  }
+}
+input::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+.upload-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.upload {
+  margin: 0 0 1.4rem;
+
+  &-core {
+    position: relative;
+    width: 14rem;
+    height: 9rem;
+  }
+
+  &-bg,
+  &ed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &-delete {
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    display: none;
+    width: 2.4rem;
+  }
+
+  &-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4.4rem;
+    transform: translate(-50%, -50%);
+  }
+
+  &.success {
+    .upload-delete {
+      display: inline-block;
+    }
+  }
+
+  &-label {
+    margin: 0.6rem 0 0;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #2e2e2f;
+  }
+}
+
+.change-register {
+  margin: 3rem 0 2.5rem;
+
+  img {
+    width: 1.6rem;
+    margin-left: 0.4rem;
+  }
+}
+
+.verification {
+  width: 8.65rem;
+}
+
+.form-tip {
+  display: flex;
+  margin: 2rem 0;
+
+  img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.25rem 0.9rem 0 0;
+  }
+
+  span {
+    flex: 1;
+    line-height: 2.2rem;
+    font-size: 1.4rem;
+  }
+
+  &[error] {
+    img {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    span {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 9;
+  transform: translate(-50%, -50%);
+  width: 27rem;
+  color: #000000;
+  background: #fff;
+  border-radius: 1.5rem;
+  &-title {
+    margin: 1.25rem 0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.7rem;
+  }
+  &-body {
+    padding: 0 3.5rem;
+    text-align: center;
+    line-height: 2.4rem;
+    font-size: 1.3rem;
+  }
+  &-footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    margin: 1.2rem 0 0;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: inline-block;
+      width: 100%;
+      height: 1px;
+      background: rgba(9, 20, 31, 0.13);
+      transform: scaleY(0.5);
+    }
+    a {
+      position: relative;
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      font-size: 1.7rem;
+      color: #108ee9;
+
+      &::after {
+        content: "";
+        position: absolute;
+        right: -0.5px;
+        top: 0;
+        display: inline-block;
+        width: 1px;
+        height: 100%;
+        background: rgba(9, 20, 31, 0.13);
+        transform: scaleX(0.5);
+      }
+      &:last-child::after {
+        display: none;
+      }
+    }
+  }
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  padding: 0 1.5rem;
+  margin-bottom: 1.5rem;
+  background: #f3f3f3;
+  border: 0.05rem solid #e8e8e8;
+  border-radius: 0.5rem;
+  input {
+    flex: 1;
+    height: 100%;
+    font-size: 1.4rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #333;
+    &::-webkit-input-placeholder {
+      color: #bfbfbf;
+    }
+  }
+}
+.select-mask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(4, 4, 15, 0.4);
+  z-index: -1;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.select-mask.show {
+  z-index: 98;
+  opacity: 1;
+}
+
+.select-wrap {
+  position: fixed;
+  bottom: -29rem;
+  left: 0;
+  width: 100%;
+  height: 29rem;
+  background-color: #fff;
+  z-index: 99;
+  box-shadow: 0px 0.15rem 0.2rem rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+  &-header {
+    height: 4rem;
+    padding: 0 1.5rem;
+    border-bottom: 0.05rem solid #ececec;
+    box-sizing: border-box;
+    span {
+      font-size: 1.4rem;
+    }
+    span:first-child {
+      color: #666;
+    }
+    span:last-child {
+      color: #108ee9;
+    }
+  }
+  &-item {
+    overflow: auto;
+    li {
+      font-size: 1.6rem;
+      color: #666;
+      padding: 1.4rem 0;
+      line-height: 1;
+      transition: 0.3s;
+    }
+    li.active {
+      color: #108ee9;
+      font-weight: bold;
+      font-size: 1.8rem;
+    }
+  }
+}
+
+.select-wrap.show {
+  bottom: 0;
+}
+
+// 按钮容器
+.btn-wrap {
+  background-color: #fff;
+  padding: 0.6rem 1.6rem;
+}
+
+// 遮罩层
+.mask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(4, 4, 15, 0.4);
+  z-index: -1;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.mask.show {
+  z-index: 98;
+  opacity: 1;
+}
+
+// 表单下拉
+.form-select-pop {
+  height: 33.5rem;
+  width: 100%;
+  z-index: 99;
+  border-radius: 0.8rem 0.8rem 0 0;
+  overflow: hidden;
+  background-color: #f6f8fd;
+  position: fixed;
+  left: 0;
+  bottom: -100%;
+  transition: 0.3s;
+  &.show {
+    bottom: 0;
+  }
+  ul {
+    background-color: #fff;
+    overflow: auto;
+    li {
+      position: relative;
+      height: 5.5rem;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        font-size: 1.6rem;
+        color: #666;
+        padding-right: 2rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        transition: 0.3s;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 100%;
+        height: 1px;
+        background: #eeeeee;
+        left: 0;
+        bottom: -0.5px;
+        transform: scaleY(0.5);
+      }
+      &:last-child:after {
+        display: none;
+      }
+      &.active {
+        p {
+          color: $color-primary;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  a {
+    width: 100%;
+    height: 5rem;
+    font-size: 1.6rem;
+    color: #333;
+    line-height: 5rem;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 1rem;
+  }
+}
+
+// 头部切换
+.header-tab {
+  height: 4.4rem;
+  position: relative;
+  padding: 0 1.6rem;
+  border-bottom: 0.1rem solid $borderColor-info;
+  li {
+    font-size: 1.5rem;
+    color: #666;
+    position: relative;
+    transition: 0.3s;
+  }
+  li.active {
+    font-size: 2.1rem;
+    color: #333;
+    font-weight: bold;
+    height: inherit;
+  }
+  li.active::after {
+    display: inline-block;
+    content: "";
+    width: 2rem;
+    height: 0.5rem;
+    background: $color-primary;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+}
+// 背景
+.bg-gray {
+  background: #f5f5f5;
+}
+// 模块
+.item {
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.container {
+  background-color: #fff;
+  padding-top: 1rem;
+}
+
+.container::before {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 1rem;
+  background: #f5f5f5;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+// 标签-通过项目
+.tag {
+  display: inline-block;
+  width: 4rem;
+  height: 1.6rem;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.6rem;
+  text-align: center;
+  border-radius: 0 0 0.5rem 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.tag.danger {
+  background: $color-danger;
+}
+.tag.warning {
+  background: $color-warning;
+}
+.tag.primary {
+  background: $color-primary;
+}
+.tag.info {
+  background: $color-info;
+}
+
+// 拍照上传
+.photograph-wrap {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: calc(-100%);
+  z-index: 99;
+  padding: 1.6rem;
+  transition: 0.3s;
+  a {
+    display: block;
+    background: #fff;
+    height: 5rem;
+    font-size: 1.6rem;
+    color: #666;
+    text-align: center;
+    line-height: 5rem;
+  }
+  a.active {
+    font-size: 1.8rem;
+    color: #108ee9;
+    font-weight: bold;
+  }
+  .photograph {
+    position: relative;
+    box-shadow: 0px 0.15rem 0.5rem rgba(0, 0, 0, 0.07);
+
+    &-btn {
+      border-radius: 0.5rem 0.5rem 0 0;
+    }
+    &-upload {
+      border-radius: 0 0 0.5rem 0.5rem;
+    }
+  }
+  .photograph-close {
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+  }
+  .photograph::after {
+    display: inline-block;
+    content: "";
+    width: 100%;
+    height: 0.05rem;
+    background: #ebebeb;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.photograph-wrap.show {
+  bottom: 0;
+}
+
+// 详情表单
+.detail-form {
+  background: #fff;
+  margin-top: 1rem;
+  padding: 0 1.6rem;
+  &-item {
+    height: 5rem;
+    position: relative;
+    .item-select {
+      p.info {
+        color: #bfbfbf;
+      }
+      span {
+        width: 1.5rem;
+        height: 1.5rem;
+        background: url(~@/assets/img/select-right.png) no-repeat center;
+        background-size: 100% 100%;
+        margin-left: 0.3rem;
+      }
+    }
+    .detail-form-input[type="text"] {
+      border: none;
+      outline: none;
+      font-size: 1.6rem;
+      color: #333;
+      margin: 0;
+      padding-left: 5rem;
+      text-align: right;
+      &::-webkit-input-placeholder {
+        color: #bfbfbf;
+      }
+    }
+    .radio {
+      &-item {
+        margin-right: 3rem;
+        span {
+          font-size: 1.6rem;
+          color: #333;
+          margin-left: 0.5rem;
+          line-height: 1;
+        }
+      }
+      &-item:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  &-item::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: #eeeeee;
+    left: 0;
+    bottom: 0;
+    transform: scaleY(0.5);
+  }
+  &-item.noborder::after {
+    display: none;
+  }
+}
+
+// 单选多选
+.checked {
+  &.pos {
+    position: relative;
+  }
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin: 0;
+    outline: none;
+    border: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+  label {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    transition: 0.3s;
+    &.small {
+      width: 1.8rem;
+      height: 1.8rem;
+    }
+  }
+  input[type="checkbox"] + label,
+  input[type="radio"] + label {
+    background: transparent url(~@/assets/img/checked.svg) no-repeat center/100%
+      100%;
+    &.garden {
+      background: transparent url(~@/assets/img/radio.svg) no-repeat center/100%
+        100%;
+    }
+  }
+  input[type="checkbox"]:checked + label,
+  input[type="radio"]:checked + label {
+    background: transparent url(~@/assets/img/checked-active.svg) no-repeat
+      center/100% 100%;
+    &.garden {
+      background: transparent url(~@/assets/img/radio-active.svg) no-repeat
+        center/100% 100%;
+    }
+  }
+}
+//搜索框
+.search {
+  background-color: #fff;
+  padding: 0.8rem 1.6rem;
+  display: flex;
+  position: relative;
+  input {
+    width: 100%;
+    height: 3.7rem;
+    border-radius: 1.8rem;
+    border: none;
+    outline: none;
+    background: #f5f5f5;
+    padding: 0 5rem 0 2rem;
+    color: #333;
+    font-size: 1.3rem;
+    line-height: 3.7rem;
+    margin: 0;
+    &::-webkit-input-placeholder {
+      color: #bfbfbf;
+    }
+  }
+  span {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(~@/assets/img/search.png) no-repeat center/100% 100%;
+    position: absolute;
+    right: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+}
+// 照片上传
+.form-file {
+  position: relative;
+  padding: 2rem 1.6rem;
+  background-color: #fff;
+  &::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: #eeeeee;
+    left: 0;
+    bottom: 0;
+    transform: scaleY(0.5);
+  }
+  .flex-h {
+    p {
+      font-size: 1.6rem;
+      color: #333;
+    }
+    a {
+      font-size: 1.5rem;
+      color: #999;
+    }
+  }
+  &-upload {
+    ul {
+      li {
+        margin-right: 2.5rem;
+        margin-top: 2rem;
+        position: relative;
+        img {
+          width: 6.4rem;
+          vertical-align: top;
+        }
+        span {
+          display: inline-block;
+          width: 1.6rem;
+          height: 1.6rem;
+          background: url(~@/assets/img/delete.png) no-repeat center/100% 100%;
+          position: absolute;
+          right: -0.8rem;
+          top: -0.8rem;
+        }
+        /* &:last-child {
+          margin-right: 0;
+        } */
+      }
+    }
+    input[type="file"] {
+      width: 0;
+      height: 0;
+      opacity: 0;
+      border: none;
+      outline: none;
+      margin: 0;
+    }
+    input[type="file"] + label {
+      margin-top: 2rem;
+      // margin-left: 2.5rem;
+      width: 6.4rem;
+      height: 6.4rem;
+      background: transparent url(~@/assets/img/upload.png) no-repeat
+        center/100% 100%;
+    }
+  }
+}
+
+// 公益宣言文本域
+.textarea-wrap {
+  position: relative;
+  .textarea {
+    width: 100%;
+    height: 22.75rem;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    border: 1px solid #e8e8e8;
+    outline: none;
+    border-radius: 0.5rem;
+    background: #f3f3f3;
+    font-size: 1.4rem;
+    resize: none;
+    color: #333;
+    &::-webkit-input-placeholder {
+      color: #bfbfbf;
+    }
+  }
+  span {
+    font-size: 1.2rem;
+    color: #333;
+    position: absolute;
+    right: 1.25rem;
+    bottom: 1.25rem;
+  }
+}
+
+// 地区下拉
+.region-select {
+  width: 100%;
+  height: 31.5rem;
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  bottom: -100%;
+  z-index: 99;
+  transition: .3s;
+  &.show {
+    bottom: 0;
+  }
+  &-header {
+    height: 4.5rem;
+    padding: 0 2rem;
+    position: relative;
+    &::after {
+      display: inline-block;
+      content: "";
+      width: 100%;
+      height: 1px;
+      background: #eeeeee;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      transform: scaleY(0.5);
+    }
+    a {
+      font-size: 1.4rem;
+      color: #333;
+    }
+    a:last-child {
+      color: #108ee9;
+    }
+  }
+  &-content {
+    overflow: hidden;
+    .province-list {
+      width: 12.5rem;
+      height: 100%;
+      overflow: auto;
+      li {
+        width: inherit;
+        height: 4.5rem;
+        font-size: 1.5rem;
+        color: #333;
+        line-height: 4.5rem;
+        text-align: center;
+        transition: 0.3s;
+        &.active {
+          font-size: 1.7rem;
+          color: #108ee9;
+        }
+      }
+    }
+    .city-list {
+      height: 100%;
+      overflow: auto;
+      background: #f2f2f2;
+      li {
+        height: 4.5rem;
+        position: relative;
+        padding: 0 1.5rem;
+        p {
+          font-size: 1.5rem;
+          color: #333;
+          transition: 0.3s;
+        }
+        &.active {
+          p {
+            font-size: 1.7rem;
+            color: #108ee9;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 字体颜色行高
+.num {
+  font-size: 2.6rem;
+  color: #333;
+  font-family: "UNIVECONBOL";
+  margin: 0;
+}
+.num.small {
+  font-size: 2.5rem;
+}
+
+.num.mini {
+  font-size: 2.1rem;
+}
+
+.num.Brand {
+  color: #108ee9;
+}
+
+.title {
+  font-size: 1.8rem;
+  color: #333;
+  margin: 0;
+  font-weight: bold;
+}
+.title.large {
+  font-size: 2.1rem;
+}
+.title.mini {
+  font-size: 1.5rem;
+}
+
+.title.small {
+  font-size: 1.6rem;
+}
+
+.txt {
+  color: #666;
+  font-size: 1.4rem;
+  margin: 0;
+  font-weight: normal;
+}
+
+.txt.large {
+  font-size: 1.5rem;
+}
+
+.txt.huge {
+  font-size: 1.6rem;
+}
+
+.txt.small {
+  font-size: 1.2rem;
+}
+
+.txt.little {
+  font-size: 1rem;
+}
+
+.txt.black {
+  color: #333;
+}
+
+.txt.bold {
+  font-weight: bold;
+}
+
+.line-normal {
+  line-height: 1;
+}
+
+.line-common {
+  line-height: 1.5;
+}
+
+.h {
+  height: 100%;
+}

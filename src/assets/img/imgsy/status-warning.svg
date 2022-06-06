@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="148" viewBox="0 0 148 148">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff9000;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="审核中" transform="translate(-8 -8)">
+    <path id="Fill-" class="cls-1" d="M156,82.914A74.4,74.4,0,0,0,81.086,8C41.13,8,8,41.13,8,82.914,8,122.87,41.13,156,81.086,156,122.87,156,156,122.87,156,82.914Z"/>
+    <path id="Path" class="cls-2" d="M90,57l1.67,48.436h6.681L100.021,57Z" transform="translate(-13.011 -7.656)"/>
+    <circle id="Oval-4" class="cls-3" cx="5" cy="5" r="5" transform="translate(77.492 104.694)"/>
+  </g>
+</svg>

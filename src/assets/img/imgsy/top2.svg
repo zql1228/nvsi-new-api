@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="66" viewBox="0 0 66 66">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.913" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff9e1e"/>
+      <stop offset="1" stop-color="#ffdb68"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.093" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff26c"/>
+      <stop offset="1" stop-color="#ffdf61"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="矩形_23825" data-name="矩形 23825" width="66" height="66" transform="translate(263 3160)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="多边形_25" data-name="多边形 25" d="M9.582.969a1,1,0,0,1,1.559,0L14.334,4.94a1,1,0,0,0,.429.31l4.78,1.785a1,1,0,0,1,.483,1.49L17.22,12.752a1,1,0,0,0-.166.507l-.232,5.064a1,1,0,0,1-1.263.919l-4.935-1.349a1,1,0,0,0-.527,0L5.163,19.242A1,1,0,0,1,3.9,18.323l-.232-5.064a1,1,0,0,0-.166-.507L.7,8.525a1,1,0,0,1,.483-1.49L5.959,5.25a1,1,0,0,0,.429-.31Z" transform="matrix(0.914, 0.407, -0.407, 0.914, 7.96, 0)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-4" x1="0.093" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d5eaed"/>
+      <stop offset="0.382" stop-color="#e7f3f5"/>
+      <stop offset="1" stop-color="#bed4da"/>
+    </linearGradient>
+    <clipPath id="clip-path-4">
+      <path id="多边形_30" data-name="多边形 30" d="M27.383,0l9.128,16.149L27.383,32.3H9.128L0,16.149,9.128,0Z" transform="translate(32.298 0) rotate(90)" fill="url(#linear-gradient-3)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="0.913" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#94b8b8"/>
+      <stop offset="1" stop-color="#a6cecd"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.093" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e8f2f5"/>
+      <stop offset="1" stop-color="#c9e7e5"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0.093" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bad6d7"/>
+      <stop offset="1" stop-color="#bfd4d9"/>
+    </linearGradient>
+  </defs>
+  <g id="蒙版组_93" data-name="蒙版组 93" transform="translate(-263 -3160)" clip-path="url(#clip-path)">
+    <g id="组_29299" data-name="组 29299" transform="translate(255.89 3166.319)">
+      <g id="组_29305" data-name="组 29305" transform="translate(0 33.749) rotate(-47)">
+        <path id="多边形_24" data-name="多边形 24" d="M9.582.969a1,1,0,0,1,1.559,0L14.334,4.94a1,1,0,0,0,.429.31l4.78,1.785a1,1,0,0,1,.483,1.49L17.22,12.752a1,1,0,0,0-.166.507l-.232,5.064a1,1,0,0,1-1.263.919l-4.935-1.349a1,1,0,0,0-.527,0L5.163,19.242A1,1,0,0,1,3.9,18.323l-.232-5.064a1,1,0,0,0-.166-.507L.7,8.525a1,1,0,0,1,.483-1.49L5.959,5.25a1,1,0,0,0,.429-.31Z" transform="matrix(0.914, 0.407, -0.407, 0.914, 7.96, 0)" fill="#c1d9db"/>
+        <g id="蒙版组_91" data-name="蒙版组 91" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+          <circle id="椭圆_795" data-name="椭圆 795" cx="3.767" cy="3.767" r="3.767" transform="matrix(0.695, 0.719, -0.719, 0.695, 12.162, 0.304)" fill="#98bdbd"/>
+          <circle id="椭圆_796" data-name="椭圆 796" cx="3.767" cy="3.767" r="3.767" transform="matrix(0.695, 0.719, -0.719, 0.695, 5.435, 4.182)" fill="#98bdbd"/>
+          <circle id="椭圆_797" data-name="椭圆 797" cx="3.767" cy="3.767" r="3.767" transform="matrix(0.695, 0.719, -0.719, 0.695, 4.641, 11.494)" fill="#98bdbd"/>
+          <circle id="椭圆_798" data-name="椭圆 798" cx="3.767" cy="3.767" r="3.767" transform="matrix(0.695, 0.719, -0.719, 0.695, 10.528, 17.591)" fill="#98bdbd"/>
+        </g>
+      </g>
+      <g id="组_29296" data-name="组 29296" transform="translate(47.961 18.329)">
+        <path id="多边形_24-2" data-name="多边形 24" d="M9.582.969a1,1,0,0,1,1.559,0L14.334,4.94a1,1,0,0,0,.429.31l4.78,1.785a1,1,0,0,1,.483,1.49L17.22,12.752a1,1,0,0,0-.166.507l-.232,5.064a1,1,0,0,1-1.263.919l-4.935-1.349a1,1,0,0,0-.527,0L5.163,19.242A1,1,0,0,1,3.9,18.323l-.232-5.064a1,1,0,0,0-.166-.507L.7,8.525a1,1,0,0,1,.483-1.49L5.959,5.25a1,1,0,0,0,.429-.31Z" transform="matrix(0.914, 0.407, -0.407, 0.914, 7.96, 0)" fill="#c1d9db"/>
+        <g id="蒙版组_91-2" data-name="蒙版组 91" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+          <circle id="椭圆_795-2" data-name="椭圆 795" cx="3.767" cy="3.767" r="3.767" transform="matrix(0.695, 0.719, -0.719, 0.695, 12.162, 0.304)" fill="#98bdbd"/>
+          <circle id="椭圆_796-2" data-name="椭圆 796" cx="3.767" cy="3.767" r="3.767" transform="matrix(0.695, 0.719, -0.719, 0.695, 5.435, 4.182)" fill="#98bdbd"/>
+          <circle id="椭圆_797-2" data-name="椭圆 797" cx="3.767" cy="3.767" r="3.767" transform="matrix(0.695, 0.719, -0.719, 0.695, 4.641, 11.494)" fill="#98bdbd"/>
+          <circle id="椭圆_798-2" data-name="椭圆 798" cx="3.767" cy="3.767" r="3.767" transform="matrix(0.695, 0.719, -0.719, 0.695, 10.528, 17.591)" fill="#98bdbd"/>
+        </g>
+      </g>
+      <path id="多边形_26" data-name="多边形 26" d="M15.14,6.016a4,4,0,0,1,6.932,0L33.758,26.3a4,4,0,0,1-3.466,6H6.921a4,4,0,0,1-3.466-6Z" transform="translate(50.386 1.564) rotate(90)" fill="#c1d9db"/>
+      <path id="多边形_27" data-name="多边形 27" d="M15.14,6.016a4,4,0,0,1,6.932,0L33.758,26.3a4,4,0,0,1-3.466,6H6.921a4,4,0,0,1-3.466-6Z" transform="translate(29.109 38.776) rotate(-90)" fill="#c1d9db"/>
+      <g id="组_29298" data-name="组 29298" transform="translate(16.47 1.564)">
+        <path id="多边形_28" data-name="多边形 28" d="M38.968,0,51.957,21.766,38.968,43.532H12.989L0,21.766,12.989,0Z" transform="translate(44.936 0) rotate(90)" fill="url(#linear-gradient-4)"/>
+        <path id="多边形_29" data-name="多边形 29" d="M27.383,0l9.128,16.149L27.383,32.3H9.128L0,16.149,9.128,0Z" transform="translate(39.319 7.723) rotate(90)" fill="#c1d9db"/>
+        <g id="蒙版组_92" data-name="蒙版组 92" transform="translate(6.319 7.723)" clip-path="url(#clip-path-4)">
+          <path id="路径_97902" data-name="路径 97902" d="M38.291,2.567c12.6,0,7.347,8.414,7.347,21.017A22.819,22.819,0,1,1,0,23.584c0-7.1,11.583-4.92,21.115-8.671C28.218,12.117,32.784,2.567,38.291,2.567Z" transform="translate(-3.511 10.469)" fill="#92bec3" opacity="0.2"/>
+          <circle id="椭圆_799" data-name="椭圆 799" cx="6.67" cy="6.67" r="6.67" transform="translate(4.915 -3.511)" fill="#fff"/>
+        </g>
+        <path id="减去_23" data-name="减去 23" d="M16.5,39.319h0L0,29.489V9.83L16.5,0,33,9.83V29.489l-16.5,9.83Zm0-36.042h0L2.357,11.468V27.851L16.5,36.042l14.143-8.191V11.468L16.5,3.277Z" transform="translate(6.319 6.319)" fill="url(#linear-gradient-5)"/>
+        <text id="文字标题" transform="translate(16.149 37.128)" fill="#5a8381" font-size="29" font-family="Univeconbol"><tspan x="0" y="0">2</tspan></text>
+        <g id="组_29297" data-name="组 29297" transform="translate(0 39.736)">
+          <path id="路径_97903" data-name="路径 97903" d="M3.973-.059,42.638-.2c1.163,0,1.505.338,2.709,1.426a11.385,11.385,0,0,1,2.106,2.925A1.878,1.878,0,0,1,45.638,6.26H2.106A2.106,2.106,0,0,1,0,4.154,11.292,11.292,0,0,1,1.75,1.229C2.743.176,2.81-.059,3.973-.059Z" transform="translate(0 0.197)" fill="url(#linear-gradient-6)"/>
+          <rect id="矩形_23821" data-name="矩形 23821" width="47.745" height="7.021" rx="3" transform="translate(0 3.094)" fill="url(#linear-gradient-7)"/>
+          <path id="矩形_23822" data-name="矩形 23822" d="M0,0H47.745a0,0,0,0,1,0,0V0a2.809,2.809,0,0,1-2.809,2.809H2.809A2.809,2.809,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 7.307)" fill="#abcece"/>
+        </g>
+      </g>
+      <rect id="矩形_23823" data-name="矩形 23823" width="2.809" height="11.234" transform="translate(17.875 14.904)" fill="#fff"/>
+      <rect id="矩形_23824" data-name="矩形 23824" width="2.809" height="11.234" transform="matrix(0.574, 0.819, -0.819, 0.574, 39.224, 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

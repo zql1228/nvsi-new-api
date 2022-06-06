@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.482" y1="0.561" x2="0.892" y2="1.193" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#28d8f6"/>
+      <stop offset="1" stop-color="#457ded"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.378" y1="0.685" x2="0.632" y2="0.447" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="icon11" transform="translate(-409 -663)">
+    <rect id="矩形_28998" data-name="矩形 28998" width="70" height="70" transform="translate(409 663)" fill="none"/>
+    <g id="组_39459" data-name="组 39459" transform="translate(119.743 -190.425)">
+      <g id="组_39458" data-name="组 39458">
+        <path id="路径_111073" data-name="路径 111073" d="M344.542,916.6H304.521a8.275,8.275,0,0,1-8.266-8.267V868.692a8.275,8.275,0,0,1,8.266-8.267h17.426a8.275,8.275,0,0,1,8.266,8.267v32.265a3,3,0,1,1-6,0V868.692a2.269,2.269,0,0,0-2.266-2.267H304.521a2.269,2.269,0,0,0-2.266,2.267v39.637a2.269,2.269,0,0,0,2.266,2.267h40.021a2.27,2.27,0,0,0,2.267-2.267V890.138a2.269,2.269,0,0,0-2.267-2.266h-7.678a3,3,0,0,1,0-6h7.678a8.275,8.275,0,0,1,8.267,8.266v18.191a8.276,8.276,0,0,1-8.267,8.271Z" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+      </g>
+      <path id="路径_111074" data-name="路径 111074" d="M324.213,868.692v32.265a3,3,0,1,0,6,0V868.692a8.275,8.275,0,0,0-8.266-8.267h-6.032S324.213,860.425,324.213,868.692Z" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient-2)"/>
+      <path id="路径_111075" data-name="路径 111075" d="M344.542,881.872h-6.319c2.6,0,8.586.319,8.586,8.266v18.191c0,8.267-9.447,8.267-9.447,8.267h7.18a8.276,8.276,0,0,0,8.267-8.267V890.138a8.275,8.275,0,0,0-8.267-8.266Z" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient-2)"/>
+      <path id="路径_111076" data-name="路径 111076" d="M302.255,908.329V868.692c0-8.007,7.724-8.267,7.724-8.267h-5.458a8.275,8.275,0,0,0-8.266,8.267v39.637a8.275,8.275,0,0,0,8.266,8.267h5.458S302.255,916.6,302.255,908.329Z" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

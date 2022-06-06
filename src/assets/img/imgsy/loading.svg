@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="矩形_25129" data-name="矩形 25129" width="40" height="40" transform="translate(270 347)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="加载" transform="translate(-270 -347)" clip-path="url(#clip-path)">
+    <g id="jiazai_3_" data-name="jiazai (3)" transform="translate(268.56 351)">
+      <path id="路径_95670" data-name="路径 95670" d="M480,1.039a1.039,1.039,0,1,1,2.077,0v7a1.039,1.039,0,1,1-2.077,0Z" transform="translate(-459.599)" fill="#858585"/>
+      <path id="路径_95671" data-name="路径 95671" d="M668.013,139.477a1.035,1.035,0,0,1,1.464,1.464l-4.943,4.943a1.043,1.043,0,0,1-1.485-1.464Z" transform="translate(-636.856 -134.658)" fill="#878787"/>
+      <path id="路径_95672" data-name="路径 95672" d="M746.918,474.56a1.039,1.039,0,1,1,0,2.077h-7a1.039,1.039,0,1,1,0-2.077Z" transform="translate(-710.517 -459.593)" fill="#8f8f8f"/>
+      <path id="路径_95673" data-name="路径 95673" d="M669.425,662.665a1.039,1.039,0,1,1-1.464,1.475L663,659.186a1.039,1.039,0,1,1,1.475-1.464Z" transform="translate(-636.804 -636.948)" fill="#909090"/>
+      <path id="路径_95674" data-name="路径 95674" d="M482.077,741.158a1.039,1.039,0,0,1-2.077,0v-7a1.039,1.039,0,1,1,2.077,0Z" transform="translate(-459.599 -710.197)" fill="#b1b1b1"/>
+      <path id="路径_95675" data-name="路径 95675" d="M146.226,663.5a1.039,1.039,0,1,1-1.464-1.475l4.943-4.943a1.039,1.039,0,0,1,1.475,1.464Z" transform="translate(-134.503 -636.329)" fill="#cdcdcd"/>
+      <path id="路径_95676" data-name="路径 95676" d="M6.479,476.637a1.039,1.039,0,1,1,0-2.077h7a1.039,1.039,0,1,1,0,2.077Z" transform="translate(0 -459.593)" fill="#dadada"/>
+      <path id="路径_95677" data-name="路径 95677" d="M144.917,140.941a1.035,1.035,0,1,1,1.464-1.464l4.964,4.943a1.039,1.039,0,0,1-1.475,1.464Z" transform="translate(-134.658 -134.658)" fill="#e2e2e2"/>
+    </g>
+  </g>
+</svg>
